@@ -15,5 +15,13 @@
         <HintPath>Lib\SoulsFormats.dll</HintPath>
       </Reference>
     </ItemGroup>
+    
+    <ItemGroup>
+        <CopyReadme Include="readme.txt" />
+    </ItemGroup>
 
+    <Target Name="Copy" AfterTargets="AfterBuild">
+        <Copy SourceFiles="@(CopyReadme)" DestinationFolder="bin\Debug\net6.0" />
+    </Target>
+    
 </Project>

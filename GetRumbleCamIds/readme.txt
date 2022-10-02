@@ -4,3 +4,5 @@ Drop a folder onto the exe and a text file will be created containing every uniq
 the anibnds in the folder.
 
 Requires oo2core_6_win64.dll to be in same folder as exe for Sekiro and Elden Ring (copy it from the Game folder)
+
+Thanks to TKGP for SoulsFormats and Meowmaritus for SoulsAssetPipeline.
